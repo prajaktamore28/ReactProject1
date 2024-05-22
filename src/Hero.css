@@ -1,0 +1,55 @@
+.hero {
+  background-image: url('../public/images/banner-bg.png');
+}
+
+.head-img img {
+  width: 100px;
+}
+
+.main h1 {
+  font-size: 47px;
+  font-weight: 900;
+}
+
+@media(min-width:768px) {
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+  }
+
+  .head-img {
+    margin: 0 auto;
+  }
+
+  .head-img img {
+    width: 180px;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-item {
+    font-size: 22px;
+  }
+
+  .main h1 {
+    font-size: 70px;
+  }
+
+  .main-para {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width:992px) {
+  .hero {
+    height: 800px;
+  }
+
+  .main-para {
+    width: 60%;
+  }
+}

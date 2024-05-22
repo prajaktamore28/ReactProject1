@@ -1,0 +1,45 @@
+.btn {
+  background-color: #2B2278;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.main-btn button {
+  background-color: white;
+  color: black;
+}
+
+.main-btn button:hover {
+  background-color: #2B2278;
+  color: white;
+}
+
+.whychoose-btn button,
+.about-btn {
+  background-color: black;
+}
+
+.whychoose-btn button:hover,
+.about-btn:hover {
+  background-color: #2B2278;
+}
+
+@media(min-width:992px) {
+  .services {
+    width: 80%;
+  }
+
+  .About {
+    margin: 70px 0 50px 80px !important;
+  }
+}
+
+@media(min-width:1400px) {
+
+  .services h1,
+  .services p {
+    margin-left: 35px;
+  }
+}

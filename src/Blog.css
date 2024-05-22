@@ -1,0 +1,44 @@
+.blog {
+  background-image: url('../public/images/blog-bg.png');
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.blog h1 {
+  font-size: 45px;
+  line-height: 60px;
+  padding-top: 50px;
+}
+
+.blog button {
+  margin: 0 auto;
+}
+
+
+@media(min-width:768px) {
+  .blog {
+    background-size: cover;
+    height: 600px;
+  }
+
+  .blog h1 {
+    padding-top: 150px;
+  }
+}
+
+@media(min-width:992px) {
+  .blog {
+    height: 700px;
+  }
+
+  .blog p {
+    width: 70%;
+    margin: 0 auto !important;
+  }
+}
+
+@media(min-width:1400px) {
+  .blog {
+    height: 750px;
+  }
+}

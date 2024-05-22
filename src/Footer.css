@@ -1,0 +1,86 @@
+.footer {
+  background-image: url(../public/images/footer-bg.png);
+  background-position: bottom;
+}
+
+.footer-btn button {
+  color: #2B2278;
+  background-color: white;
+}
+
+.phone i,
+.mail i {
+  font-size: 40px;
+}
+
+.foot {
+  background-color: #122C2D;
+}
+
+@media(min-width:768px) {
+  .footer {
+    background-size: cover;
+    height: 750px;
+  }
+
+  .inputbox {
+    margin: 40% 0 40px 0;
+  }
+
+  input {
+    border-bottom-left-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+  }
+
+  button {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+  }
+}
+
+@media(min-width:992px) {
+  .footer {
+    height: 800px;
+  }
+
+  .footer input {
+    margin: 37% auto 30px auto;
+
+  }
+
+  .inputbox {
+    margin-top: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .inputbox button {
+    margin-top: 311px;
+  }
+}
+
+@media(min-width:1400px) {
+  .footer {
+    height: 900px;
+  }
+
+  .inputbox {
+    width: 70%;
+    margin-bottom: 60px;
+  }
+
+  .inputbox button {
+    margin-top: 336px;
+  }
+
+  .phone i,
+  .mail i {
+    font-size: 45px;
+  }
+
+  .social-btn img {
+    margin-top: 35px;
+    width: 40px;
+    margin-right: 8px;
+  }
+}
